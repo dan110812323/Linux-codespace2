@@ -1,13 +1,17 @@
 {
   "name": "KDE Plasma with RenPy",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",  // Ubuntu 22.04 LTS - super estável
   "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installSudo": true,
+      "username": "codespace"
+    },
     "ghcr.io/devcontainers-contrib/features/apt-get:1": {}
   },
   "forwardPorts": [6080],
   "portsAttributes": {
     "6080": {
-      "label": "noVNC Desktop",
+      "label": "noVNC KDE Desktop",
       "onAutoForward": "openBrowser"
     }
   },
