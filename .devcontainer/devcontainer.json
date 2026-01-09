@@ -1,6 +1,6 @@
 {
   "name": "KDE Plasma with RenPy",
-  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers-contrib/features/apt-get:1": {}
   },
