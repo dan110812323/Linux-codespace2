@@ -1,7 +1,7 @@
 {
   "name": "KDE Plasma with RenPy",
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",  // Ubuntu 22.04 LTS - super estável
-  "features": {
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+"features": {},
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installSudo": true,
       "username": "codespace"
